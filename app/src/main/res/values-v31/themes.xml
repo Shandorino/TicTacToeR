@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.TicTacToeR" parent="Base.V31.Theme.TicTacToeR"/>
+
+    <style name="Base.V31.Theme.TicTacToeR" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/material_dynamic_primary40</item>
+        <item name="colorOnPrimary">@color/material_dynamic_primary100</item>
+        <item name="colorPrimaryContainer">@color/material_dynamic_primary90</item>
+        <item name="colorOnPrimaryContainer">@color/material_dynamic_primary10</item>
+        <item name="colorSecondary">@color/material_dynamic_secondary40</item>
+        <item name="colorOnSecondary">@color/material_dynamic_secondary100</item>
+        <item name="colorSecondaryContainer">@color/material_dynamic_secondary90</item>
+        <item name="colorOnSecondaryContainer">@color/material_dynamic_secondary10</item>
+        <item name="colorTertiary">@color/material_dynamic_tertiary40</item>
+        <item name="colorOnTertiary">@color/material_dynamic_tertiary100</item>
+        <item name="colorTertiaryContainer">@color/material_dynamic_tertiary90</item>
+        <item name="colorOnTertiaryContainer">@color/material_dynamic_tertiary10</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/material_dynamic_neutral99</item>
+        <item name="colorOnBackground">@color/material_dynamic_neutral10</item>
+        <item name="colorSurface">@color/material_dynamic_neutral99</item>
+        <item name="colorOnSurface">@color/material_dynamic_neutral10</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <!--        <item name="colorSurfaceTint">@color/md_theme_light_surfaceTint</item>-->
+        <!--        <item name="colorSurfaceTintColor">@color/md_theme_light_surfaceTintColor</item>-->
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
+
+
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.V31.TicTacToeR.BodyMedium</item>
+    </style>
+
+
+    <style name="TextAppearance.V31.TicTacToeR.BodyMedium" parent="TextAppearance.M3.Sys.Typescale.BodyMedium">
+        <item name="android:textColor">@color/material_dynamic_primary100</item>
+
+    </style>
+</resources>
